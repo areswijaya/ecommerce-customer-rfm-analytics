@@ -1,0 +1,8 @@
+segment,customer_count,avg_recency,avg_frequency,avg_monetary,total_monetary,customer_pct,monetary_pct,action_plan
+Champions,1134,89.3015873015873,2.164021164021164,338.96700176366846,384388.58,1.214678977698751,2.4928289236409844,"Berikan reward loyalitas VIP, early access produk baru, dan layanan prioritas."
+Loyal Customers,679,203.3019145802651,2.0795287187039766,281.3870692194404,191061.82,0.7273077829430793,1.2390701906375248,"Tawarkan program referral, diskon personalisasi, dan rekomendasi cross-sell berkala."
+Potential Loyalists,14454,91.6018403210184,1.0,302.0250664176006,4365470.31,15.482336810985666,28.310858387270432,Kirimkan voucher pembelian kedua (berlaku 30 hari) dan rekomendasi produk komplementer.
+New Customers,21770,89.97069361506661,1.0,72.90807717041801,1587208.84,23.318837164463677,10.293334167759758,"Jalankan onboarding email berseri, panduan belanja, dan diskon selamat datang pesanan berikutnya."
+Need Attention,18105,220.45606186136428,1.0,151.2755691797846,2738844.18,19.393088969343815,17.76189602003726,Luncurkan kampanye reaktivasi berbasis urgensi (limited-time discount) dan survei preferensi.
+At Risk,14723,393.37438022142226,1.0724716430075392,306.8348882700536,4517530.06,15.770474945907154,29.29699315464988,"Kirimkan penawaran win-back bernilai tinggi, rekomendasi produk terbaru, dan tanyakan feedback layanan."
+Hibernating,22493,396.06877695282975,1.0,72.7012830658427,1635269.96,24.093275348657855,10.605019156004152,Gunakan promosi otomatis berbiaya rendah (email newsletter berkala); hindari biaya retargeting iklan mahal.
