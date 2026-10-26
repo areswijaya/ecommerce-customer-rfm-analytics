@@ -7,7 +7,7 @@
 - **Positioning Portofolio:** Membedakan diri secara tegas dari Proyek 1 (yang berfokus pada Operasional, Logistik, dan Pertumbuhan MoM). Proyek 2 berfokus pada **Customer Analytics, Behavioral RFM Segmentation, Seller Economics, dan Retensi Pendapatan** untuk menjawab tantangan strategis pemasaran, pencegahan churn, dan maksimalisasi nilai seumur hidup pelanggan (*Customer Lifetime Value*).
 - **Tujuan Utama:** Menganalisis perilaku belanja 93.358 pelanggan unik menggunakan **segmentasi RFM (Recency, Frequency, Monetary)** ke dalam 7 kelompok perilaku, membuktikan konsentrasi 57,6% pendapatan pada *Potential Loyalists* (28,3%) dan *At Risk* (29,3%), mengevaluasi dinamika pembiayaan cicilan dan korelasi performa penjual, serta memvisualisasikannya dalam dashboard Streamlit modern berbasis Plotly interaktif.
 - **Pengembang:** Ilfa Antaries Yusuf Wijaya (Data Analyst & Commercial Intelligence Portfolio)
-- **Deployment URL:** https://ecommerce-insights-dashboard-areswidjaja.streamlit.app/
+- **Deployment URL:** https://ecommerce-customer-rfm-areswijaya.streamlit.app/
 
 ---
 

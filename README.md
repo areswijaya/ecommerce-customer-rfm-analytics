@@ -1,7 +1,7 @@
 # 🛍️ E-Commerce Customer Segmentation & RFM Analytics Dashboard
 
 [![Python Version](https://img.shields.io/badge/python-3.10%20%7C%203.11%20%7C%203.12%20%7C%203.14-blue.svg)](https://www.python.org/)
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ecommerce-insights-dashboard-areswidjaja.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ecommerce-customer-rfm-areswijaya.streamlit.app/)
 [![Plotly Interactive](https://img.shields.io/badge/visualizations-Plotly%20Interactive-3B82F6.svg)](https://plotly.com/)
 [![Tests Passing](https://img.shields.io/badge/tests-13%20passed-10B981.svg)](https://docs.pytest.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
