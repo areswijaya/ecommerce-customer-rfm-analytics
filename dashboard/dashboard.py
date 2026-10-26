@@ -505,8 +505,6 @@ with st.expander("👨‍💼 Seksi 2: Analisis Kinerja Penjual (Seller Economic
                 y="avg_review_score",
                 color="avg_review_score",
                 color_continuous_scale="Viridis",
-                trendline="ols",
-                trendline_color_override="#F59E0B",
                 hover_data={"seller_id": True, "total_revenue": ":,.2f"},
                 labels={"total_orders": "Volume Pesanan (Orders)", "avg_review_score": "Rata-rata Skor Review (1-5)"}
             )
@@ -514,6 +512,22 @@ with st.expander("👨‍💼 Seksi 2: Analisis Kinerja Penjual (Seller Economic
                 marker=dict(size=6, opacity=0.7),
                 hovertemplate="<b>Seller:</b> %{customdata[0]}<br><b>Orders:</b> %{x}<br><b>Review Score:</b> %{y:.2f}<br><b>Revenue:</b> R$ %{customdata[1]:,.2f}<extra></extra>"
             )
+
+            # Manual OLS regression line using scipy to eliminate statsmodels dependency on Streamlit Cloud
+            if len(clean_seller_corr) > 1:
+                slope, intercept, _, _, _ = stats.linregress(clean_seller_corr["total_orders"], clean_seller_corr["avg_review_score"])
+                x_vals = np.array([clean_seller_corr["total_orders"].min(), clean_seller_corr["total_orders"].max()])
+                y_vals = slope * x_vals + intercept
+                fig_scatter.add_trace(
+                    go.Scatter(
+                        x=x_vals,
+                        y=y_vals,
+                        mode="lines",
+                        line=dict(color="#F59E0B", width=2.5, dash="dash"),
+                        name="Garis Regresi OLS",
+                        hoverinfo="skip"
+                    )
+                )
             fig_scatter.update_coloraxes(showscale=False)
             apply_plot_theme(
                 fig_scatter,
